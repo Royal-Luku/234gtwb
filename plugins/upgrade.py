@@ -9,26 +9,26 @@ async def upgrade(bot,update):
 
 𝟏.   𝐅𝐫𝐞𝐞 𝐏𝐥𝐚𝐧
 
-👉     ᴅᴀɪʟʏ  ʟɪᴍɪᴛ 2 ɢʙ
-👉     ꜰʀᴇᴇ
+•>    ᴅᴀɪʟʏ  ʟɪᴍɪᴛ 2 
+•>    ꜰʀᴇᴇ
 
 
 𝟐.   𝐁𝐚𝐬𝐢𝐜  𝐏𝐥𝐚𝐧
 
-👉     ᴅᴀɪʟʏ  ʟɪᴍɪᴛ  10 ɢʙ
-👉     ʙᴜʏ  <a href='https://telegra.ph/SUPPORT-12-22-2'>₹ 49/ᴍᴏɴᴛʜ.</a> 
+•>     ᴅᴀɪʟʏ  ʟɪᴍɪᴛ  10 ɢʙ
+•>     ʙᴜʏ  <a href='https://telegram.me/royaldwip'>₹ 49/ᴍᴏɴᴛʜ.</a> 
 	
 
 𝟑.   𝐒𝐭𝐚𝐧𝐝𝐚𝐫𝐝  𝐏𝐥𝐚𝐧 
 
-👉     ᴅᴀɪʟʏ  ʟɪᴍɪᴛ  50 ɢʙ
-👉     ʙᴜʏ  <a href='https://telegra.ph/SUPPORT-12-22-2'>₹ 99/ᴍᴏɴᴛʜ.</a>  
+•>     ᴅᴀɪʟʏ  ʟɪᴍɪᴛ  50 ɢʙ
+•>     ʙᴜʏ  <a href='https://telegram.me/royaldwip'>₹ 99/ᴍᴏɴᴛʜ.</a>  
 	
 
 𝟒.   𝐏𝐫𝐞𝐦𝐢𝐮𝐦  𝐏𝐥𝐚𝐧 
 
-👉     ᴅᴀɪʟʏ  ʟɪᴍɪᴛ  100 ɢʙ
-👉     ʙᴜʏ  <a href='https://telegra.ph/SUPPORT-12-22-2'>₹ 199/ᴍᴏɴᴛʜ.</a>
+•>     ᴅᴀɪʟʏ  ʟɪᴍɪᴛ  100 ɢʙ
+•>     ʙᴜʏ  <a href='https://telegram.me/royaldwip'>₹ 199/ᴍᴏɴᴛʜ.</a>
 
 •°•°•°•°•°•°•°•°•°•°•°•°•°•°•°•°•°•°•°•°•°•°•°•
 
