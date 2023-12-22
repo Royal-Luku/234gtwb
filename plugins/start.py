@@ -36,25 +36,25 @@ async def start(client,message):
 	try:
 	    id = message.text.split(' ')[1]
 	except:
-	    await message.reply_text(text =f"""{message.from_user.mention},\n{wish}\nɪ  ᴀᴍ  ᴀɴ  ᴀᴅᴠᴀɴᴄᴇ  ꜰɪʟᴇ  ʀᴇɴᴀᴍᴇʀ  ᴀɴᴅ  ᴄᴏɴᴠᴇʀᴛᴇʀ  ʙᴏᴛ  ᴡɪᴛʜ  ᴘᴇʀᴍᴀɴᴇɴᴛ  ᴀɴᴅ  ᴄᴜsᴛᴏᴍ  ᴛʜᴜᴍʙɴᴀɪʟ  sᴜᴘᴘᴏʀᴛ.\n\nᴊᴜsᴛ  sᴇɴᴅ  ᴍᴇ  ᴀɴʏ  ᴠɪᴅᴇᴏ  ᴏʀ ᴅᴏᴄᴜᴍᴇɴᴛ !!""",reply_to_message_id = message.id ,  
-	reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton('⚚     ɱᴀɪɴ   ᴄʜᴀɴɴᴇʟ     ⚚', url='https://telegram.me/NobiDeveloper')],[InlineKeyboardButton('👨‍💻   ᴏᴡɴᴇʀ', url='https://telegram.me/NobiDeveloperr'),InlineKeyboardButton('📝   ᴀʙᴏᴜᴛ', callback_data = "upgrade")]]))
+	    await message.reply_text(text =f"""ʜᴇʏ, {message.from_user.mention},\n{wish}\nɪ  ᴀᴍ  ᴀɴ  ᴀᴅᴠᴀɴᴄᴇ  ꜰɪʟᴇ  ʀᴇɴᴀᴍᴇʀ  ᴀɴᴅ  ᴄᴏɴᴠᴇʀᴛᴇʀ  ʙᴏᴛ  ᴡɪᴛʜ  ᴘᴇʀᴍᴀɴᴇɴᴛ  ᴀɴᴅ  ᴄᴜsᴛᴏᴍ  ᴛʜᴜᴍʙɴᴀɪʟ  sᴜᴘᴘᴏʀᴛ.\n\nᴊᴜsᴛ  sᴇɴᴅ  ᴍᴇ  ᴀɴʏ  ᴠɪᴅᴇᴏ  ᴏʀ ᴅᴏᴄᴜᴍᴇɴᴛ !!""",reply_to_message_id = message.id ,  
+	reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton('⚚     ɱᴀɪɴ   ᴄʜᴀɴɴᴇʟ     ⚚', url='https://telegram.me/royaldwip')],[InlineKeyboardButton('👨‍💻   ᴏᴡɴᴇʀ', url='https://telegram.me/royaldwip'),InlineKeyboardButton('📝   ᴀʙᴏᴜᴛ', callback_data = "upgrade")]]))
 	    return
 	if id:
 	    if old == True:
 	        try:
 	            await client.send_message(id,"ʏᴏᴜʀ  ꜰʀɪᴇɴᴅ  ᴀʟʀᴇᴀᴅʏ  ᴜꜱɪɴɢ  ᴍᴇ")
-	            await message.reply_text(text =f"""{message.from_user.mention},\n{wish}\nɪ  ᴀᴍ  ᴀɴ  ᴀᴅᴠᴀɴᴄᴇ  ꜰɪʟᴇ  ʀᴇɴᴀᴍᴇʀ  ᴀɴᴅ  ᴄᴏɴᴠᴇʀᴛᴇʀ  ʙᴏᴛ  ᴡɪᴛʜ  ᴘᴇʀᴍᴀɴᴇɴᴛ  ᴀɴᴅ  ᴄᴜsᴛᴏᴍ  ᴛʜᴜᴍʙɴᴀɪʟ  sᴜᴘᴘᴏʀᴛ.\n\nᴊᴜsᴛ  sᴇɴᴅ  ᴍᴇ  ᴀɴʏ  ᴠɪᴅᴇᴏ  ᴏʀ ᴅᴏᴄᴜᴍᴇɴᴛ !!""",reply_to_message_id = message.id ,  
-	reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton('⚚     ɱᴀɪɴ   ᴄʜᴀɴɴᴇʟ     ⚚', url='https://telegram.me/NobiDeveloper')],[InlineKeyboardButton('👨‍💻   ᴏᴡɴᴇʀ', url='https://telegram.me/NobiDeveloperr'),InlineKeyboardButton('📝   ᴀʙᴏᴜᴛ', callback_data = "upgrade")]]))
+	            await message.reply_text(text =f"""ʜᴇʏ, {message.from_user.mention},\n{wish}\nɪ  ᴀᴍ  ᴀɴ  ᴀᴅᴠᴀɴᴄᴇ  ꜰɪʟᴇ  ʀᴇɴᴀᴍᴇʀ  ᴀɴᴅ  ᴄᴏɴᴠᴇʀᴛᴇʀ  ʙᴏᴛ  ᴡɪᴛʜ  ᴘᴇʀᴍᴀɴᴇɴᴛ  ᴀɴᴅ  ᴄᴜsᴛᴏᴍ  ᴛʜᴜᴍʙɴᴀɪʟ  sᴜᴘᴘᴏʀᴛ.\n\nᴊᴜsᴛ  sᴇɴᴅ  ᴍᴇ  ᴀɴʏ  ᴠɪᴅᴇᴏ  ᴏʀ ᴅᴏᴄᴜᴍᴇɴᴛ !!""",reply_to_message_id = message.id ,  
+	reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton('⚚     ɱᴀɪɴ   ᴄʜᴀɴɴᴇʟ     ⚚', url='https://telegram.me/royaldwip')],[InlineKeyboardButton('👨‍💻   ᴏᴡɴᴇʀ', url='https://telegram.me/royaldwip'),InlineKeyboardButton('📝   ᴀʙᴏᴜᴛ', callback_data = "upgrade")]]))
 	        except:
 	             return
 	    else:
-	         await client.send_message(id,"ʏᴏᴜ  ᴡᴏɴ  100 ᴍʙ  ᴇxᴛʀᴀ  ᴜᴘʟᴏᴀᴅ  ʟɪᴍɪᴛ  😊")
+	         await client.send_message(id,"ʏᴏᴜ  ᴡᴏɴ  500 ᴍʙ  ᴇxᴛʀᴀ  ᴜᴘʟᴏᴀᴅ  ʟɪᴍɪᴛ  😊")
 	         _user_= find_one(int(id))
 	         limit = _user_["uploadlimit"]
-	         new_limit = limit + 104857600
+	         new_limit = limit + 536870912
 	         uploadlimit(int(id),new_limit)
-	         await message.reply_text(text =f"""{message.from_user.mention},\n{wish}\nɪ  ᴀᴍ  ᴀɴ  ᴀᴅᴠᴀɴᴄᴇ  ꜰɪʟᴇ  ʀᴇɴᴀᴍᴇʀ  ᴀɴᴅ  ᴄᴏɴᴠᴇʀᴛᴇʀ  ʙᴏᴛ  ᴡɪᴛʜ  ᴘᴇʀᴍᴀɴᴇɴᴛ  ᴀɴᴅ  ᴄᴜsᴛᴏᴍ  ᴛʜᴜᴍʙɴᴀɪʟ  sᴜᴘᴘᴏʀᴛ.\n\nᴊᴜsᴛ  sᴇɴᴅ  ᴍᴇ  ᴀɴʏ  ᴠɪᴅᴇᴏ  ᴏʀ ᴅᴏᴄᴜᴍᴇɴᴛ !!""",reply_to_message_id = message.id ,  
-	reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton('⚚     ɱᴀɪɴ   ᴄʜᴀɴɴᴇʟ     ⚚', url='https://telegram.me/NobiDeveloper')],[InlineKeyboardButton('👨‍💻   ᴏᴡɴᴇʀ', url='https://telegram.me/NobiDeveloperr'),InlineKeyboardButton('📝   ᴀʙᴏᴜᴛ', callback_data = "upgrade")]]))
+	         await message.reply_text(text =f"""ʜᴇʏ, {message.from_user.mention},\n{wish}\nɪ  ᴀᴍ  ᴀɴ  ᴀᴅᴠᴀɴᴄᴇ  ꜰɪʟᴇ  ʀᴇɴᴀᴍᴇʀ  ᴀɴᴅ  ᴄᴏɴᴠᴇʀᴛᴇʀ  ʙᴏᴛ  ᴡɪᴛʜ  ᴘᴇʀᴍᴀɴᴇɴᴛ  ᴀɴᴅ  ᴄᴜsᴛᴏᴍ  ᴛʜᴜᴍʙɴᴀɪʟ  sᴜᴘᴘᴏʀᴛ.\n\nᴊᴜsᴛ  sᴇɴᴅ  ᴍᴇ  ᴀɴʏ  ᴠɪᴅᴇᴏ  ᴏʀ ᴅᴏᴄᴜᴍᴇɴᴛ !!""",reply_to_message_id = message.id ,  
+	reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton('⚚     ɱᴀɪɴ   ᴄʜᴀɴɴᴇʟ     ⚚', url='https://telegram.me/royaldwip')],[InlineKeyboardButton('👨‍💻   ᴏᴡɴᴇʀ', url='https://telegram.me/royaldwip'),InlineKeyboardButton('📝   ᴀʙᴏᴜᴛ', callback_data = "upgrade")]]))
 	         
 
 @Client.on_message(filters.private &( filters.document | filters.audio | filters.video ))
@@ -68,7 +68,7 @@ async def send_doc(client,message):
        		await message.reply_text(f"""**{message.from_user.mention}**,\nᴅᴜᴇ  ᴛᴏ  ᴏᴠᴇʀʟᴏᴀᴅ,  ᴏɴʟʏ  ᴄʜᴀɴɴᴇʟ  ᴍᴇᴍʙᴇʀꜱ  ᴄᴀɴ  ᴜꜱᴇ  ᴍᴇ.""",
        		reply_to_message_id = message.id,
        		reply_markup = InlineKeyboardMarkup(
-       		[ [ InlineKeyboardButton("🔥  𝙹𝙾𝙸𝙽  𝚄𝙿𝙳𝙰𝚃𝙴  𝙲𝙷𝙰𝙽𝙽𝙴𝙻  🔥" ,url=f"https://telegram.me/{update_channel}") ]   ]))
+       		[ [ InlineKeyboardButton("JOIN CHANNEL ✌" ,url=f"https://telegram.me/{update_channel}") ]   ]))
        		return
        try:
            bot_data = find_one(int(botid))
@@ -151,6 +151,6 @@ async def send_doc(client,message):
        		    fileid = file.file_id
        		    total_rename(int(botid),prrename)
        		    total_size(int(botid),prsize,file.file_size)
-       		    await message.reply_text(f"""__What do you want me to do with this file?__\n**File Name** :- {filename}\n**File Size** :- {filesize}\n**Dc ID** :- {dcid}""",reply_to_message_id = message.id,reply_markup = InlineKeyboardMarkup(
+       		    await message.reply_text(f"""__What do you want me to do with this file?__\n\n• File Info!\n**File Name** :- {filename}\n**File Size** :- {filesize}\n**Your DC** :- {dcid}""",reply_to_message_id = message.id,reply_markup = InlineKeyboardMarkup(
        		[[ InlineKeyboardButton("📝  ʀᴇɴᴀᴍᴇ",callback_data = "rename"),
        		InlineKeyboardButton("✖️  ᴄᴀɴᴄᴇʟ",callback_data = "cancel")  ]]))
