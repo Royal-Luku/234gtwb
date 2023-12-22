@@ -18,7 +18,7 @@ async def warn(c, m):
                  await m.reply_text("User Not Notfied Sucessfully 😔") 
 
 
-@Client.on_message(filters.private & filters.user(ADMIN) & filters.command(["addpremium"]))
+@Client.on_message(filters.private & filters.user(ADMIN) & filters.command(["p"]))
 async def buypremium(bot, message):
 	await message.reply_text("Select Plan.........",quote=True,reply_markup=InlineKeyboardMarkup([
 		           [
@@ -39,7 +39,7 @@ async def resetpower(bot, message):
 
 @Client.on_callback_query(filters.regex('vip1'))
 async def vip1(bot,update):
-	id = update.message.reply_to_message.text.split("/addpremium")
+	id = update.message.reply_to_message.text.split("/p")
 	user_id = id[1].replace(" ", "")
 	inlimit  = 10737418240
 	uploadlimit(int(user_id),10737418240)
@@ -50,7 +50,7 @@ async def vip1(bot,update):
 
 @Client.on_callback_query(filters.regex('vip2'))
 async def vip2(bot,update):
-	id = update.message.reply_to_message.text.split("/addpremium")
+	id = update.message.reply_to_message.text.split("/p")
 	user_id = id[1].replace(" ", "")
 	inlimit  = 53687091200
 	uploadlimit(int(user_id),53687091200)
@@ -61,7 +61,7 @@ async def vip2(bot,update):
 
 @Client.on_callback_query(filters.regex('vip3'))
 async def vip3(bot,update):
-	id = update.message.reply_to_message.text.split("/addpremium")
+	id = update.message.reply_to_message.text.split("/p")
 	user_id = id[1].replace(" ", "")
 	inlimit = 107374182400
 	uploadlimit(int(user_id), 107374182400)
