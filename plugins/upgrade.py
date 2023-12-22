@@ -4,47 +4,42 @@ from pyrogram import Client , filters
 @Client.on_callback_query(filters.regex('upgrade'))
 async def upgrade(bot,update):
 	text = """
-𝐁𝐮𝐲   𝐏𝐥𝐚𝐧   𝐀𝐜𝐜.   𝐓𝐨   𝐘𝐨𝐮𝐫   𝐍𝐞𝐞𝐝 !!!
+ 𝙔𝙤𝙪 𝘾𝙖𝙣 𝘾𝙝𝙤𝙤𝙨𝙚 𝘼𝙣𝙮 𝙋𝙡𝙖𝙣 𝙬𝙝𝙖𝙩 𝙮𝙤𝙪 𝙡𝙞𝙠𝙚 ✌
 
-
-𝟏.   𝐅𝐫𝐞𝐞 𝐏𝐥𝐚𝐧
+𝟏.   𝙁𝙧𝙚𝙚 𝙋𝙡𝙖𝙣
 
 •>    ᴅᴀɪʟʏ  ʟɪᴍɪᴛ 2 
 •>    ꜰʀᴇᴇ
 
-
-𝟐.   𝐁𝐚𝐬𝐢𝐜  𝐏𝐥𝐚𝐧
+3.  𝘽𝙖𝙨𝙞𝙘 𝙋𝙡𝙖𝙣
 
 •>     ᴅᴀɪʟʏ  ʟɪᴍɪᴛ  10 ɢʙ
-•>     ʙᴜʏ  <a href='https://telegram.me/royaldwip'>₹ 49/ᴍᴏɴᴛʜ.</a> 
+•>     ʙᴜʏ  <a href='https://telegram.me/royaldwip'>₹ 30/ᴍᴏɴᴛʜ.</a> 
 	
-
-𝟑.   𝐒𝐭𝐚𝐧𝐝𝐚𝐫𝐝  𝐏𝐥𝐚𝐧 
+4.   𝙎𝙩𝙖𝙣𝙙𝙖𝙧𝙙 𝙋𝙡𝙖𝙣
 
 •>     ᴅᴀɪʟʏ  ʟɪᴍɪᴛ  50 ɢʙ
-•>     ʙᴜʏ  <a href='https://telegram.me/royaldwip'>₹ 99/ᴍᴏɴᴛʜ.</a>  
+•>     ʙᴜʏ  <a href='https://telegram.me/royaldwip'>₹ 60/ᴍᴏɴᴛʜ.</a>  
 	
 
-𝟒.   𝐏𝐫𝐞𝐦𝐢𝐮𝐦  𝐏𝐥𝐚𝐧 
+4.   𝙋𝙧𝙚𝙢𝙞𝙪𝙢 𝙋𝙡𝙖𝙣
 
 •>     ᴅᴀɪʟʏ  ʟɪᴍɪᴛ  100 ɢʙ
-•>     ʙᴜʏ  <a href='https://telegram.me/royaldwip'>₹ 199/ᴍᴏɴᴛʜ.</a>
+•>     ʙᴜʏ  <a href='https://telegram.me/royaldwip'>₹ 110/ᴍᴏɴᴛʜ.</a>
 
 •°•°•°•°•°•°•°•°•°•°•°•°•°•°•°•°•°•°•°•°•°•°•°•
-
-𝐍𝐎𝐓𝐄 :  ᴀꜰᴛᴇʀ  ᴘᴀʏᴍᴇɴᴛ  ꜱᴇɴᴅ  ꜱᴄʀᴇᴇɴꜱʜᴏᴛ  ᴛᴏ  ᴏᴡɴᴇʀ.
 """
 	keybord = InlineKeyboardMarkup(
                 [
                     [
-            InlineKeyboardButton('ᴄᴏɴᴛᴀᴄᴛ  ᴛᴏ  ᴏᴡɴᴇʀ  ❣️',url='https://telegram.me/NobiDeveloperr')
+            InlineKeyboardButton('ᴄᴏɴᴛᴀᴄᴛ  ᴛᴏ  ᴏᴡɴᴇʀ',url='https://telegram.me/royaldwip')
             ],
                     [
-            InlineKeyboardButton('ʙᴜʏ   ꜱᴜʙꜱᴄʀɪᴘᴛɪᴏɴ   😊',url='https://telegra.ph/SUPPORT-12-22-2')
+            InlineKeyboardButton('ᴏᴜʀ ᴀʟʟ ʙᴏᴛs',url='https://t.me/WOMBACKUP/47')
             ],
                     [
-                        InlineKeyboardButton('🔮  ʜᴇʟᴘ',url='https://telegram.me/NobiDeveloperSupport'),
-                        InlineKeyboardButton("🏠   ʜᴏᴍᴇ", callback_data = "cancel")
+                        InlineKeyboardButton('ᴀʙᴏᴜᴛ ᴅᴇᴠ',url='https://t.me/About_Royaldwip'),
+                        InlineKeyboardButton("ᴄʟᴏsᴇ", callback_data = "cancel")
                     ]
                 ]
             )
@@ -54,47 +49,42 @@ async def upgrade(bot,update):
 @Client.on_message(filters.private & filters.command(["upgrade"]))
 async def upgradecm(bot,message):
 	text = """
-𝐁𝐮𝐲   𝐏𝐥𝐚𝐧   𝐀𝐜𝐜.   𝐓𝐨   𝐘𝐨𝐮𝐫   𝐍𝐞𝐞𝐝 !!!
+𝙔𝙤𝙪 𝘾𝙖𝙣 𝘾𝙝𝙤𝙤𝙨𝙚 𝘼𝙣𝙮 𝙋𝙡𝙖𝙣 𝙬𝙝𝙖𝙩 𝙮𝙤𝙪 𝙡𝙞𝙠𝙚 ✌
 
+𝟏.   𝙁𝙧𝙚𝙚 𝙋𝙡𝙖𝙣
 
-𝟏.   𝐅𝐫𝐞𝐞 𝐏𝐥𝐚𝐧
+•>    ᴅᴀɪʟʏ  ʟɪᴍɪᴛ 2 ɢʙ
+•>    ꜰʀᴇᴇ
 
-👉     ᴅᴀɪʟʏ  ʟɪᴍɪᴛ 2 ɢʙ
-👉     ꜰʀᴇᴇ
+3.  𝘽𝙖𝙨𝙞𝙘 𝙋𝙡𝙖𝙣
 
+•>     ᴅᴀɪʟʏ  ʟɪᴍɪᴛ  10 ɢʙ
+•>     ʙᴜʏ  <a href='https://telegram.me/royaldwip'>₹ 30/ᴍᴏɴᴛʜ.</a> 
+	
+4.   𝙎𝙩𝙖𝙣𝙙𝙖𝙧𝙙 𝙋𝙡𝙖𝙣
 
-𝟐.   𝐁𝐚𝐬𝐢𝐜  𝐏𝐥𝐚𝐧
-
-👉     ᴅᴀɪʟʏ  ʟɪᴍɪᴛ  10 ɢʙ
-👉     ʙᴜʏ  <a href='https://telegra.ph/SUPPORT-12-22-2'>₹ 49/ᴍᴏɴᴛʜ.</a> 
+•>     ᴅᴀɪʟʏ  ʟɪᴍɪᴛ  50 ɢʙ
+•>     ʙᴜʏ  <a href='https://telegram.me/royaldwip'>₹ 60/ᴍᴏɴᴛʜ.</a>  
 	
 
-𝟑.   𝐒𝐭𝐚𝐧𝐝𝐚𝐫𝐝  𝐏𝐥𝐚𝐧 
+4.   𝙋𝙧𝙚𝙢𝙞𝙪𝙢 𝙋𝙡𝙖𝙣
 
-👉     ᴅᴀɪʟʏ  ʟɪᴍɪᴛ  50 ɢʙ
-👉     ʙᴜʏ  <a href='https://telegra.ph/SUPPORT-12-22-2'>₹ 99/ᴍᴏɴᴛʜ.</a>  
-	
-
-𝟒.   𝐏𝐫𝐞𝐦𝐢𝐮𝐦  𝐏𝐥𝐚𝐧 
-
-👉     ᴅᴀɪʟʏ  ʟɪᴍɪᴛ  100 ɢʙ
-👉     ʙᴜʏ  <a href='https://telegra.ph/SUPPORT-12-22-2'>₹ 199/ᴍᴏɴᴛʜ.</a>
+•>     ᴅᴀɪʟʏ  ʟɪᴍɪᴛ  100 ɢʙ
+•>     ʙᴜʏ  <a href='https://telegram.me/royaldwip'>₹ 110/ᴍᴏɴᴛʜ.</a>
 
 •°•°•°•°•°•°•°•°•°•°•°•°•°•°•°•°•°•°•°•°•°•°•°•
-
-𝐍𝐎𝐓𝐄 :  ᴀꜰᴛᴇʀ  ᴘᴀʏᴍᴇɴᴛ  ꜱᴇɴᴅ  ꜱᴄʀᴇᴇɴꜱʜᴏᴛ  ᴛᴏ  ᴏᴡɴᴇʀ.
 """
 	keybord = InlineKeyboardMarkup(
                 [
                     [
-            InlineKeyboardButton('ᴄᴏɴᴛᴀᴄᴛ  ᴛᴏ  ᴏᴡɴᴇʀ  ❣️',url='https://telegram.me/NobiDeveloperr')
+            InlineKeyboardButton('ᴄᴏɴᴛᴀᴄᴛ  ᴛᴏ  ᴏᴡɴᴇʀ',url='https://telegram.me/royaldwip')
             ],
                     [
-            InlineKeyboardButton('ʙᴜʏ   ꜱᴜʙꜱᴄʀɪᴘᴛɪᴏɴ   😊',url='https://telegra.ph/SUPPORT-12-22-2')
+            InlineKeyboardButton('ᴏᴜʀ ᴀʟʟ ʙᴏᴛs',url='https://t.me/WOMBACKUP/47')
             ],
                     [
-                        InlineKeyboardButton('🔮  ʜᴇʟᴘ',url='https://telegram.me/NobiDeveloperSupport'),
-                        InlineKeyboardButton("🏠   ʜᴏᴍᴇ", callback_data = "cancel")
+                        InlineKeyboardButton('ᴀʙᴏᴜᴛ ᴅᴇᴠ',url='https://t.me/About_Royaldwip'),
+                        InlineKeyboardButton("ᴄʟᴏsᴇ", callback_data = "cancel")
                     ]
                 ]
             )
